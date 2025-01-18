@@ -35,7 +35,8 @@
         "url": "https://github.com/yateesh99/yateesh99.github.io.git"
     },
     "dependencies": {
-        "bootstrap": "5.2.3"
+        "bootstrap": "5.2.3",
+        "ws": "8.17.1"
     },
     "devDependencies": {
         "autoprefixer": "10.4.14",
@@ -47,6 +48,7 @@
         "pug": "3.0.2",
         "sass": "1.60.0",
         "shelljs": "0.8.5",
-        "upath": "2.0.1"
+        "upath": "2.0.1",
+        "ws": "8.17.1"
     }
 }
