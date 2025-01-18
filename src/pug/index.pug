@@ -1,0 +1,198 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    meta(name="description", content="")
+    meta(name="author", content="")
+    title Yateesh Chaturvedi
+    link(rel="icon", type="image/x-icon", href="assets/img/favicon.ico")
+    // Font Awesome icons (free version)
+    script(src="https://use.fontawesome.com/releases/v6.3.0/js/all.js", crossorigin="anonymous")
+    // Google fonts
+    link(href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700", rel="stylesheet", type="text/css")
+    link(href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i", rel="stylesheet", type="text/css")
+    // Core theme CSS (includes Bootstrap)
+    link(href="css/styles.css", rel="stylesheet")
+  
+  body(id="page-top")
+    // Navigation
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top(id="sideNav")
+      a.navbar-brand.js-scroll-trigger(href="#page-top")
+        span.d-block.d-lg-none Yateesh Chaturvedi
+        span.d-none.d-lg-block
+          img.img-fluid.img-profile(src="assets/img/profilepic.jpg", alt="...")
+      button.navbar-toggler(type="button", data-bs-toggle="collapse", data-bs-target="#navbarResponsive", aria-controls="navbarResponsive", aria-expanded="false", aria-label="Toggle navigation")
+        span.navbar-toggler-icon
+      div.collapse.navbar-collapse(id="navbarResponsive")
+        ul.navbar-nav
+          li.nav-item
+            a.nav-link.js-scroll-trigger(href="#about") About
+          li.nav-item
+            a.nav-link.js-scroll-trigger(href="#experience") Experience
+          li.nav-item
+            a.nav-link.js-scroll-trigger(href="#education") Education
+          li.nav-item
+            a.nav-link.js-scroll-trigger(href="#skills") Skills
+          li.nav-item
+            a.nav-link.js-scroll-trigger(href="#awards") Awards
+
+    // Page Content
+    .container-fluid.p-0
+      // About Section
+      section.resume-section(id="about")
+        div.resume-section-content
+          h1.mb-0
+            | Yateesh
+            span.text-primary Chaturvedi
+          div.subheading.mb-5
+            | JNV ROAD Fatehgarh, Farrukhabad, UP-209601
+            br
+            a(href="mailto:ychandra0405@gmail.com") ychandra0405@gmail.com
+          p.lead.mb-5 I am DevOps Engineer with expertise in cloud infrastructure, automation, and tools like Azure, AWS, Jenkins, Docker, Kubernetes, and Terraform. Skilled in scripting and building scalable, resilient systems while collaborating with teams to deliver business-aligned solutions.
+          div.social-icons
+            a.social-icon(href="https://www.linkedin.com/in/yateesh-chaturvedi/")
+              i.fab.fa-linkedin-in
+            a.social-icon(href="https://github.com/yateesh99")
+              i.fab.fa-github
+
+      hr.m-0
+
+      // Experience Section
+      section.resume-section(id="experience")
+        div.resume-section-content
+          h2.mb-5 Experience
+          .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+            .flex-grow-1
+              h3.mb-0 DevOps Engineer
+              div.subheading.mb-3 Metacube Software Pvt Ltd
+              p
+                b(u) Suntory Global Websites
+              ul
+                li Designed and implemented Infrastructure-as-Code (IaC) solutions using Terraform, reducing manual efforts by 80% and ensuring consistent deployments.
+                li Architected and deployed comprehensive monitoring and alerting systems using New Relic and Azure App Services logs, enhancing performance monitoring by 23%
+                li Strengthened network security by configuring advanced firewall rules and conducting regular vulnerability assessments using Wiz, Fortify, and Codacy.
+                li Automated routine tasks with Python and Shell scripts, increasing productivity and reducing manual intervention.
+                li Played a key role in disaster recovery planning and testing to ensure business continuity.
+              p
+                b(u) Mirage
+              ul
+                li Automated the deployment of Azure Bots using Terraform to streamline infrastructure provisioning.
+                li Integrated Azure Bots with Microsoft Teams channels to enable seamless call recording for support executives.
+                li Enhanced operational efficiency by automating call storage workflows using Azure Blob Storage for scalable and secure data management.
+              p
+                b(u) AFIMAC Global
+              ul
+                li Designed and implemented an Azure API Management (APIM) solution to authenticate and manage requests with customer data from Dynamics 365.
+                li Configured Event Grid topics to process validated requests and route them to Logic App workflows for further processing.
+                li Developed Logic App workflows to validate customer existence via Bullhorn API, creating new customers if necessary, and automating email notifications with customer details.
+            .flex-shrink-0
+              span.text-primary Feb 2022 - Present
+          .d-flex.flex-column.flex-md-row.justify-content-between
+            .flex-grow-1
+              h3.mb-0 Android Developer Intern
+              div.subheading.mb-3 Nirmal Labs
+              ul
+                li Developed and optimized two Android applications using Java and Android Studio, achieving an improvement of 7% in data retrieval efficiency.
+                li Enhanced user engagement through the design of intuitive user interfaces, resulting in a 15% increase in user retention.
+            .flex-shrink-0
+              span.text-primary Jun 2021 - Sep 2021
+
+      hr.m-0
+
+      // Education Section
+      section.resume-section(id="education")
+        div.resume-section-content
+          h2.mb-5 Education
+          .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+            .flex-grow-1
+              h3.mb-0 Chhatrapati ShahuJi Maharaj University
+              div.subheading.mb-3 B.Tech
+              div Computer Science Engineering
+              p GPA: 7.0
+            .flex-shrink-0
+              span.text-primary August 2018 - August 2022
+          .d-flex.flex-column.flex-md-row.justify-content-between
+            .flex-grow-1
+              h3.mb-0 Army Public School
+              div.subheading.mb-3 HSC
+              p GPA: 9.0
+            .flex-shrink-0
+              span.text-primary April 2015 - May 2017
+
+      hr.m-0
+
+      // Skills Section
+      section.resume-section(id="skills")
+        div.resume-section-content
+          h2.mb-5 Skills
+          div.subheading.mb-3 Programming Languages & Tools
+          b Hard Skills
+          ul.list-inline
+            li.list-inline-item Azure
+            li.list-inline-item AWS
+            li.list-inline-item Docker
+            li.list-inline-item Kubernetes
+            li.list-inline-item DevOps
+            li.list-inline-item Jenkins
+            li.list-inline-item Github
+            li.list-inline-item Terraform
+            li.list-inline-item Ansible
+            li.list-inline-item NewRelic Monitoring
+            li.list-inline-item Akamai
+            li.list-inline-item Shell/Bash Scripting
+            li.list-inline-item Groovy
+            li.list-inline-item Java
+            li.list-inline-item NodeJs
+            li.list-inline-item Python
+            li.list-inline-item Linux/Unix
+            li.list-inline-item Jira
+            li.list-inline-item Wiz
+            li.list-inline-item Rapid7
+            li.list-inline-item Fortify
+            li.list-inline-item Codacy
+          b Soft Skills
+          ul.list-inline
+            li.list-inline-item Communication
+            li.list-inline-item Collaboration
+            li.list-inline-item Problem-Solving
+            li.list-inline-item Continuous Learning
+          div.subheading.mb-3 Workflow
+          ul.fa-ul.mb-0
+            li
+              span.fa-li
+                i.fas.fa-check
+              | CI/CD Pipeline Management
+            li
+              span.fa-li
+                i.fas.fa-check
+              | Infrastructure as Code (IaC) Workflow
+            li
+              span.fa-li
+                i.fas.fa-check
+              | Automated Deployment & Monitoring
+            li
+              span.fa-li
+                i.fas.fa-check
+              | Agile Development & Scrum
+
+      hr.m-0
+
+      // Awards Section
+      section.resume-section(id="awards")
+        div.resume-section-content
+          h2.mb-5 Certifications
+          ul.fa-ul.mb-0
+            li
+              span.fa-li
+                i.fas.fa-trophy.text-warning
+              | Azure - Azure Administrator Associate(AZ-104)
+            li
+              span.fa-li
+                i.fas.fa-trophy.text-warning
+              | AIML Workshop - Building AI-Enabled Face Mask Detector
+
+    // Bootstrap core JS
+    script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js")
+    // Core theme JS
+    script(src="js/scripts.js")
