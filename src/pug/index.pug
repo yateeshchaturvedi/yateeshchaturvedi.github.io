@@ -18,7 +18,7 @@ html(lang="en")
   body(id="page-top")
     // Navigation
     nav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top(id="sideNav")
-      a.navbar-brand.js-scroll-trigger(href="#page-top")
+      a.navbar-brand.js-scroll-trigger(href="")
         span.d-block.d-lg-none Yateesh Chaturvedi
         span.d-none.d-lg-block
           img.img-fluid.img-profile(src="assets/img/profilepic.jpg", alt="...")
@@ -27,15 +27,15 @@ html(lang="en")
       div.collapse.navbar-collapse(id="navbarResponsive")
         ul.navbar-nav
           li.nav-item
-            a.nav-link.js-scroll-trigger(href="#about") About
+            a.nav-link.js-scroll-trigger(href="javascript:void(0);" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});") About
           li.nav-item
-            a.nav-link.js-scroll-trigger(href="#experience") Experience
+            a.nav-link.js-scroll-trigger(href="javascript:void(0);" onclick="document.getElementById('experience').scrollIntoView({behavior: 'smooth'});") Experience
           li.nav-item
-            a.nav-link.js-scroll-trigger(href="#education") Education
+            a.nav-link.js-scroll-trigger(href="javascript:void(0);" onclick="document.getElementById('education').scrollIntoView({behavior: 'smooth'});") Education
           li.nav-item
-            a.nav-link.js-scroll-trigger(href="#skills") Skills
+            a.nav-link.js-scroll-trigger(href="javascript:void(0);" onclick="document.getElementById('skills').scrollIntoView({behavior: 'smooth'});") Skills
           li.nav-item
-            a.nav-link.js-scroll-trigger(href="#certifications") Certifications
+            a.nav-link.js-scroll-trigger(href="javascript:void(0);" onclick="document.getElementById('certifications').scrollIntoView({behavior: 'smooth'});") Certifications
 
     // Page Content
     .container-fluid.p-0
