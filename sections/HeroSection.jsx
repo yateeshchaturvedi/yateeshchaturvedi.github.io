@@ -16,7 +16,7 @@ export default function HeroSection({ site }) {
         <p className="hero-panel-links">
           <a href={site.resumePath} target="_blank" rel="noreferrer">Open Resume</a>
         </p>
-        <Image className="hero-avatar" src="/profile.svg" alt="Yateesh Chaturvedi profile" width={96} height={96} />
+        <Image className="hero-avatar" src="/profilepic.jpg" alt="Yateesh Chaturvedi profile" width={96} height={96} />
         <ul className="stats">
           <li><span>4+</span> years in DevOps</li>
           <li><span>80%</span> manual effort reduction via IaC</li>

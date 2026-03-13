@@ -5,7 +5,7 @@ export const site = {
   email: "ychandra0405@gmail.com",
   linkedin: "https://www.linkedin.com/in/yateesh-chaturvedi/",
   github: "https://github.com/yateeshchaturvedi",
-  resumePath: "/Yateesh-Chaturvedi-Resume.txt",
+  resumePath: "/Yateesh_DevOps_Resume.pdf",
   url: "https://yateeshchaturvedi.github.io/",
   contactEndpoint: "https://formspree.io/f/xvzwrjpl"
 };
