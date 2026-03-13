@@ -1,0 +1,10 @@
+Yateesh Chaturvedi - Resume
+
+Email: ychandra0405@gmail.com
+LinkedIn: https://www.linkedin.com/in/yateesh-chaturvedi/
+GitHub: https://github.com/yateeshchaturvedi
+
+Use this file as a placeholder and replace with your latest PDF resume at:
+/public/Yateesh-Chaturvedi-Resume.pdf
+
+Then update data/portfolio.js -> resumePath.

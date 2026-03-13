@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-label="Profile placeholder">
+  <rect width="640" height="640" fill="#0d111c"/>
+  <circle cx="320" cy="245" r="120" fill="#1f2a4f"/>
+  <rect x="170" y="390" width="300" height="160" rx="80" fill="#1f2a4f"/>
+  <text x="320" y="590" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="28" fill="#7db7ff">Yateesh Chaturvedi</text>
+</svg>
