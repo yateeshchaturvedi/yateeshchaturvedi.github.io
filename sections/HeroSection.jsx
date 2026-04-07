@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function HeroSection({ site }) {
   return (
     <section className="hero reveal" id="hero">
-      <p className="eyebrow">Portfolio - 2026 - India</p>
+      <p className="eyebrow">Yateesh Chaturvedi</p>
       <h1>Cloud platforms with <span className="accent-text">strong reliability</span> and fast delivery.</h1>
       <p className="subtext">I am Yateesh Chaturvedi, a DevOps Engineer with expertise in cloud infrastructure, automation, CI/CD pipelines, and resilient system design across Azure and AWS environments.</p>
       <div className="hero-cta">
